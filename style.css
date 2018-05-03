@@ -1,0 +1,15 @@
+.box {
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    background: black;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    -ms-transtion: -ms-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+}
+.boxRotate {
+    cursor: pointer;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+}
